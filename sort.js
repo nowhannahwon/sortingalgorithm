@@ -1,7 +1,13 @@
-var message = "Header";
-var messageSplit = message.split(' '); //creates an array of strings from message
 
-$('#container').html('<p>' + message + '<p>'); //inserts a message
+$('p')
+  .each(function(index) {
+  $(this)
+  .fadeIn(2000)
+  .css('display', 'block')
+  .text(index)
+  });
+
+
 
 // $.each(index, $(".sortme")) function() {
 //   $this.attr('id=' + index);
