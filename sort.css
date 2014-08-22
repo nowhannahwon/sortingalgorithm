@@ -9,9 +9,9 @@ body {
 #header {
   color: white;
   background-color: #0099CC;
-  border: 2px solid #0099CC;
+  box-shadow: 0px 0px 20px 10px #C0C0C0;
   width: 50%;
-  font-size: 20px;
+  font-size: 25px;
   padding-top: 1em;
   padding-bottom: 1em;
   text-align: center;

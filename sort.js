@@ -1,10 +1,12 @@
+$('#header').fadeIn(2000);
+
 
 $('p')
   .each(function(index) {
   $(this)
   .fadeIn(2000)
   .css('display', 'block')
-  .text(index)
+  .text(index);
   });
 
 
