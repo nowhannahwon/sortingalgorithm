@@ -1,8 +1,10 @@
 sortingalgorithm
 ================
+In this action-packed sorting algorithm visualization, see the randomly generated numbers sort themselves each step of the way with each click!
 
-generate number with a div of the same pixel width?
 
+jQuery Referenced from:
+http://oscarotero.com/jquery/
 
-Merge Sort Algorithm referenced from:
-http://en.wikipedia.org/wiki/Merge_sort
+Bubble Sort Algorithm referenced from:
+http://en.wikipedia.org/wiki/Bubble_sort
