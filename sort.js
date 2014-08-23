@@ -16,14 +16,38 @@ $('p').each(function(index) {
     .width(rand + "%");
   });
 
+$('#buttondiv').click(function() {
+  $('.number').each(function(index) {
+      var $next = $(this).next();
+      var firstnumber = parseInt($(this).text());
+      var secondnumber = parseInt($next.text());
+      if (firstnumber > secondnumber) {
+        $next.insertBefore($(this));
+      } else {
+        return $(this);
+      }
+  })
+})
+
+  // $('div').each(function() {
+  //     alert('function started');
+  //     var $next = $(this).next();
+  //     var firstnumber = parseInt($(this).text());
+  //     var secondnumber = parseInt($next.text());
+  //     if (firstnumber > secondnumber) {
+  //         $(this).insertBefore($(this).next('div'));
+  //     } else {
+  //         $(this).insertAfter($(this).next('div'));
+  //     }
+  // });
+
+
 // $('#buttondiv').click(function() {
 //   alert($('.container').contents().find('p'));
 
     // .each($('p'), (function() {
     //   $(this).fadeIn(1500, (function() {
-    //     var $next = $(this).next();
-    //     var firstnumber = parseInt($(this).text());
-    //     var secondnumber = parseInt($next.text());
+    //
     //     if (firstnumber < secondnumber) {
     //       return firstnumber;
     //     } else {
