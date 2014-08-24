@@ -1,0 +1,58 @@
+body {
+  background-image: url('background.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bold;
+}
+
+#header {
+  color: white;
+  background-color: #0099CC;
+  box-shadow: 0px 0px 20px 10px #C0C0C0;
+  width: 50%;
+  font-size: 25px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+div button {
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  clear:both;
+  padding: 2px;
+  display: block;
+  width: 5%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.number {
+  border: 1px solid white;
+  text-align: left;
+  background-color: purple;
+  clear:both;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  margin-left: 40%;
+  margin-right: auto;
+  display: none;
+}
+
+footer {
+  clear: both;
+}
+
